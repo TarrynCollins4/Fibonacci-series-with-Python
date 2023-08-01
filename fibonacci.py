@@ -16,11 +16,11 @@ def  fibonacci(n):
 
 		return fibonacci(n-2) + fibonacci(n - 1)
 
-
-numero = int(input("ingrese un numero entero  positivo: "))
+print("Hello there, hope you have fun with this fibonacci series")
+numero = int(input("ingrese un numero entero  positivo/ Please enter a positive number: "))
 
 if numero < 0:
-	print("Numero no valido")
+	print("Numero no valido/ Number invalid")
 
 i = 0
 
